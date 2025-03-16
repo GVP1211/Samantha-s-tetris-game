@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #b0b0b0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+#gameCanvas {
+  background-color: gray;
+  border: 2px solid purple;
+}
+
+#nextPieceCanvas {
+  background-color: gray;
+  border: 1px solid blueviolet;
+}
+
+.game-info {
+  text-align: left;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.controls {
+  color: black;
+}
+
+.controls p {
+  margin: 5px 0;
+}
